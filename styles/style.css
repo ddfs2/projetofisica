@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: #191825;
+  color: #f2ebf3;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+main {
+  margin: 0rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem 0;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  width: 100vw;
+  border-bottom: solid 0.1rem #865DFF;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  background-color: #191825;
+  color: #865DFF;
+}
+nav .menu__link {
+  padding: 1rem;
+}
+
+.introducao {
+  height: 100vh;
+  margin: 0 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.introducao .introducao__titulo {
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin: 0 0 2rem 0;
+  color: #865DFF;
+}
+.introducao .introducao__textos__subtitulo {
+  font-weight: 700;
+  text-align: center;
+}
+.introducao .introducao__textos__subtitulo span {
+  color: #E384FF;
+}
+.introducao .introducao__textos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.secao {
+  display: grid;
+  text-align: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 3rem;
+}
+.secao .secao__caracteristicas {
+  height: 70vh;
+  grid-row: 1/2;
+}
+.secao .secao__extras__equacao {
+  height: 70vh;
+  grid-row: 2/3;
+}
+.secao .secao__extras__equacao .destaque {
+  font-family: sans-serif;
+}
+.secao .secao__extras__equacao .secao__texto-destaque-1 {
+  color: #16FF00;
+}
+.secao .secao__extras__equacao .secao__texto-destaque-2 {
+  color: #FC2947;
+}
+.secao .secao__extras__equacao .secao__texto-destaque-3 {
+  color: #FFED00;
+}
+.secao .secao__extras__equacao .secao__texto-destaque-4 {
+  color: #00FFD1;
+}
+.secao .secao__extras__equacao p {
+  line-height: 3.5rem;
+}
+.secao .secao__extras__equacao h4 {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.secao .secao__extras__exemplos {
+  height: 70vh;
+  grid-row: 3/4;
+}
+.secao .secao__extras__exemplos p {
+  margin: 0 7rem;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.secao h2 {
+  margin: 2rem 1rem;
+}
+.secao h3 {
+  margin: 2rem 1rem;
+  font-weight: 600;
+  font-size: 2.7rem;
+  color: #E384FF;
+  text-align: center;
+}
+
+.resumao {
+  height: 70vh;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.resumao h2 {
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+.resumao h3 {
+  color: #E384FF;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #E384FF;
+  color: #f2ebf3;
+}
+.rodape span {
+  font-weight: 600;
+  color: #13005A;
+}
+.rodape .rodape__infos,
+.rodape .rodape__desenvolvimento,
+.rodape .rodape__producao,
+.rodape .rodape__fontes {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.rodape .rodape__infos .rodape__desenvolvimento__desenvolvedor,
+.rodape .rodape__infos .rodape__producao__produtores,
+.rodape .rodape__infos .rodape__fontes__link,
+.rodape .rodape__desenvolvimento .rodape__desenvolvimento__desenvolvedor,
+.rodape .rodape__desenvolvimento .rodape__producao__produtores,
+.rodape .rodape__desenvolvimento .rodape__fontes__link,
+.rodape .rodape__producao .rodape__desenvolvimento__desenvolvedor,
+.rodape .rodape__producao .rodape__producao__produtores,
+.rodape .rodape__producao .rodape__fontes__link,
+.rodape .rodape__fontes .rodape__desenvolvimento__desenvolvedor,
+.rodape .rodape__fontes .rodape__producao__produtores,
+.rodape .rodape__fontes .rodape__fontes__link {
+  text-decoration: none;
+  color: #13005A;
+  font-weight: 600;
+}
+.rodape .rodape__infos .rodape__infos,
+.rodape .rodape__desenvolvimento .rodape__infos,
+.rodape .rodape__producao .rodape__infos,
+.rodape .rodape__fontes .rodape__infos {
+  color: #f2ebf3;
+}
+.rodape .rodape__infos .rodape__infos .rodape__infos__info,
+.rodape .rodape__desenvolvimento .rodape__infos .rodape__infos__info,
+.rodape .rodape__producao .rodape__infos .rodape__infos__info,
+.rodape .rodape__fontes .rodape__infos .rodape__infos__info {
+  color: #13005A;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

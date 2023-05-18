@@ -1,0 +1,17 @@
+@import '../abstract/variaveis';
+
+
+.resumao {
+    height: 70vh;
+    margin-bottom: 5rem;
+    text-align: center;
+    h2 {
+        font-weight: $peso-do-subtitulo;
+        font-size: $tamanho-do-subtitulo;
+    }
+    h3 {
+        color: $cor-secundaria;
+        font-weight: $peso-do-subtitulo;
+        font-size: $tamanho-do-subtitulo;
+    }
+}

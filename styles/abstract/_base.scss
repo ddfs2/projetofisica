@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import './variaveis';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $fonte;
+    background-color: $cor-fundo;
+    color: $cor-fonte;
+    font-size: $tamanho-do-texto;
+    font-weight: $peso-do-texto;
+}
+
+main {
+    margin: 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem 0;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}

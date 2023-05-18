@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+.introducao {
+    height: 100vh;
+    margin: 0 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: $tamanho-do-texto;
+    
+    .introducao__titulo {
+        font-size: $tamanho-do-titulo;
+        font-weight: $peso-do-titulo;
+        margin: 0 0 2rem 0;
+        color: $cor-primaria;
+    }
+    .introducao__textos__subtitulo {
+        font-weight: $peso-do-subtitulo;
+        text-align: center;
+        span {
+            color: $cor-secundaria;
+        }
+    }
+    .introducao__textos {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+

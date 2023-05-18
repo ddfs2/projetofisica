@@ -1,0 +1,44 @@
+@import '../abstract/variaveis';
+
+.rodape {
+    text-align: center;
+    font-size: $tamanho-do-texto-menor;
+    font-weight: $peso-do-texto-maior;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $cor-secundaria;
+    color: $cor-fonte;
+
+    span {
+        font-weight: $peso-do-subtitulo2;
+        color: #13005A;
+    }
+
+    .rodape__infos,
+    .rodape__desenvolvimento,
+    .rodape__producao,
+    .rodape__fontes {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        
+
+        .rodape__desenvolvimento__desenvolvedor,
+        .rodape__producao__produtores,
+        .rodape__fontes__link {
+            text-decoration: none;
+            color: #13005A;
+            font-weight: $peso-do-subtitulo2;
+        }
+
+        .rodape__infos {
+            color: $cor-fonte;
+
+            .rodape__infos__info {
+                color: #13005A;
+                font-weight: $peso-do-subtitulo2;
+            }
+        }
+    }
+}
